@@ -10,7 +10,6 @@ RSpec.describe BigFiveResultsTextSerializer do
   describe '.to_h' do
     it 'contains personal details' do
       expect(subject.to_h['NAME']).to eq 'Rita Sijelmass'
-      expect(subject.to_h['EMAIL']).to eq 'R.Sijelmass@gmail.com'
     end
 
     it 'contains topic names as keys' do
@@ -23,11 +22,12 @@ RSpec.describe BigFiveResultsTextSerializer do
       )
     end
 
-    it 'contains "OVERALL_SCORE" and "FACETS" in the topics' do
+    it 'contains "Overall Score" and "Facets" in the topics' do
       expect(subject.to_h['EXTRAVERSION']).to include(
-        'OVERALL_SCORE',
-        'FACETS'
+        'Overall Score',
+        'Facets'
       )
+      pp subject.to_h
     end
   end
 end

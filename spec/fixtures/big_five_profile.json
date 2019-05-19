@@ -1,0 +1,59 @@
+{
+  "EXTRAVERSION": {
+   "Overall Score": "85",
+   "Facets": {
+     "Friendliness": "96",
+     "Gregariousness": "75",
+     "Assertiveness": "47",
+     "Activity Level": "73",
+     "Excitement-Seeking": "51",
+     "Cheerfulness": "94"
+    }
+  },
+ "AGREEABLENESS": {
+   "Overall Score": "92",
+   "Facets": {
+     "Trust": "95",
+     "Morality": "58",
+     "Altruism": "79",
+     "Cooperation": "89",
+     "Modesty": "40",
+     "Sympathy": "95"
+    }
+  },
+ "CONSCIENTIOUSNESS": {
+   "Overall Score": "48",
+   "Facets": {
+     "Self-Efficacy": "34",
+     "Orderliness": "44",
+     "Dutifulness": "31",
+     "Achievement-Striving": "71",
+     "Self-Discipline": "75",
+     "Cautiousness": "33"
+    }
+  },
+ "NEUROTICISM": {
+   "Overall Score": "10",
+   "Facets": {
+     "Anxiety": "14",
+     "Anger": "7",
+     "Depression": "7",
+     "Self-Consciousness": "21",
+     "Immoderation": "62",
+     "Vulnerability": "24"
+    }
+  },
+ "OPENNESS TO EXPERIENCE": {
+   "Overall Score": "96",
+   "Facets": {
+     "Imagination": "90",
+     "Artistic Interests": "88",
+     "Emotionality": "57",
+     "Adventurousness": "98",
+     "Intellect": "37",
+     "Liberalism": "97"
+    }
+  },
+ "NAME": "Rita Sijelmass",
+ "EMAIL": "R.Sijelmass@gmail.com"
+}

@@ -18,7 +18,6 @@ class BigFiveResultsTextSerializer
   def personal_details
     { 
       'NAME' => 'Rita Sijelmass',
-      'EMAIL' => 'R.Sijelmass@gmail.com'
     }
   end
 
@@ -39,8 +38,8 @@ class BigFiveResultsTextSerializer
     hash = {}
     hash.tap do
       hash[title] = {
-      'OVERALL_SCORE' => score,
-      'FACETS' => facets.to_h
+      'Overall Score' => score,
+      'Facets' => facets.to_h
     }
     end
   end
