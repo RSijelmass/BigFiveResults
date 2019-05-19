@@ -5,6 +5,7 @@ Assertiveness........47
 Activity Level.......73
 Excitement-Seeking...51
 Cheerfulness.........94
+
 AGREEABLENESS...92
 Trust...........95
 Morality........58
@@ -12,6 +13,7 @@ Altruism........79
 Cooperation.....89
 Modesty.........40
 Sympathy........95
+
 CONSCIENTIOUSNESS......48
 Self-Efficacy..........34
 Orderliness............44
@@ -19,6 +21,7 @@ Dutifulness............31
 Achievement-Striving...71
 Self-Discipline........75
 Cautiousness...........33
+
 NEUROTICISM..........10
 Anxiety..............14
 Anger................7
@@ -26,6 +29,7 @@ Depression...........7
 Self-Consciousness...21
 Immoderation.........62
 Vulnerability........24
+
 OPENNESS TO EXPERIENCE...96
 Imagination..............90
 Artistic Interests.......88

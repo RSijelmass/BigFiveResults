@@ -6,6 +6,42 @@ class BigFiveResultsTextSerializer
   end
 
   def to_h
-    p text
+    hash = {}
+    categories = category_maps_from_text(text)
+
+    categories.each { |category| hash.merge! category_to_hash(category) }
+    hash.merge personal_details
+  end
+
+  private
+
+  def personal_details
+    { 
+      'NAME' => 'Rita Sijelmass',
+      'EMAIL' => 'R.Sijelmass@gmail.com'
+    }
+  end
+
+  def category_maps_from_text(text)
+    categories = text.split("\n\n")
+    categories.map { |category| category.split("\n") }
+  end
+
+  def category_to_hash(category)
+    category.map! do |line|
+      line = line.split('.').reject { |x| x.empty? }
+    end
+
+    title = category.first[0]
+    score = category.first[1]
+    facets = category[1..-1]
+
+    hash = {}
+    hash.tap do
+      hash[title] = {
+      'OVERALL_SCORE' => score,
+      'FACETS' => facets.to_h
+    }
+    end
   end
 end
